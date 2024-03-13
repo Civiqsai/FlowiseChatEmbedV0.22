@@ -47,14 +47,14 @@ export const Badge = (props: Props) => {
       Powered by
       <a
         ref={liteBadge}
-        href={'https://flowiseai.com'}
+        href={'https://civiqs.nl'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Flowise</span>
+        <span> CiviQs | Voorwaarden</span>
       </a>
     </span>
   );
